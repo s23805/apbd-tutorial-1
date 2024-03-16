@@ -6,8 +6,8 @@
             throw new ArgumentException("Array is empty. Provide array with numbers");
 
         int sum = 0;
-        foreach(int num in numbers){
-            sum += num;
+        foreach(int num1 in numbers){
+            sum += num1;
         }    
         
         return sum/numbers.Length;
